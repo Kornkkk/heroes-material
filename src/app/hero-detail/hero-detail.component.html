@@ -1,0 +1,25 @@
+<!-- <div *ngIf="hero">
+    <h2>{{hero.name | uppercase}} Details</h2>
+    <div><span>id: </span>{{hero.id}}</div>
+    <div>
+    <label>Hero name: </label>
+    <input [(ngModel)] = "hero.name" placeholder="name">
+    </div>
+    <button type="button" (click)="goBack()">go back</button>
+</div> -->
+ <div class="col-md-4">
+              <div class="card card-profile">
+                  <div class="card-avatar">
+                      <a href="javascript:void(0)">
+                          <img class="img" src="./assets/img/faces/marc.jpg" />
+                      </a>
+                  </div>
+                  <div class="card-body">
+                      <h4 class="card-title">{{hero.name}}</h4>
+                      <p class="card-description">
+                          Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
+                      </p>
+                    
+                      <button type="button" (click)="goBack()" class="btn btn-danger btn-round">Go back</button>
+                  </div>
+              </div> 
